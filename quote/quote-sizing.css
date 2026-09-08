@@ -1,0 +1,30 @@
+/* A compact, balanced quote form without changing its fields or behaviour. */
+.quote-panel {
+  width: min(1040px, calc(100% - 48px));
+  margin: 42px auto 0;
+  padding: 34px 36px 32px;
+  border-radius: 22px;
+}
+.quote-panel h1 { font-size: 42px; margin: 0 0 24px 4px; }
+.fields { gap: 20px 28px; }
+.fields input { height: 52px; font-size: 15px; }
+.service-row { gap: 34px; margin-top: 24px; }
+.service-col h2 { font-size: 34px !important; margin: 0 0 14px 4px; }
+.service-grid { gap: 14px 18px; }
+.service { height: 50px; font-size: 14px !important; }
+.message-col { padding-top: 46px; }
+.message-col textarea { height: 168px; padding: 14px; }
+.send { margin-top: 14px; padding: 11px 24px; font-size: 14px !important; }
+
+@media (max-width: 900px) {
+  .quote-panel { width: min(680px, calc(100% - 32px)); margin-top: 28px; padding: 28px 22px; }
+  .quote-panel h1 { font-size: 36px; }
+  .message-col { padding-top: 4px; }
+}
+
+@media (max-width: 520px) {
+  .quote-panel { width: calc(100% - 24px); padding: 24px 16px; border-radius: 18px; }
+  .quote-panel h1 { font-size: 32px; }
+  .fields input, .service { height: 50px; }
+  .message-col textarea { height: 145px; }
+}

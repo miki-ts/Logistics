@@ -1,0 +1,72 @@
+:root{--green:#16d85a;--black:#050505;--gray:#707070}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#fff;color:var(--black);font-family:'Inter',Arial,sans-serif}.nav-wrap{padding:38px 7.8% 0;position:relative;z-index:10}.nav{height:58px;border:1px solid #aaa;border-radius:35px;box-shadow:0 4px 7px #0002;display:flex;align-items:center;padding:4px 7px;background:#fff}.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:#111;font-size:21px;font-weight:700;white-space:nowrap}.brand img{width:47px;height:47px;object-fit:contain;border:1px solid #aaa;border-radius:50%}.links{display:flex;align-items:center;justify-content:center;gap:50px;flex:1}.links a{font-size:17px;color:#666;text-decoration:none}.links a.active{color:#000;font-weight:600}.quote{background:var(--green);color:#fff;text-decoration:none;border:1px solid #111;border-radius:30px;padding:11px 22px;font-size:16px;white-space:nowrap}.menu{display:none;background:none;border:0} .hero{height:610px;position:relative;overflow:hidden;padding-top:18px}.hero-copy{text-align:center;position:relative;z-index:2}.hero h1,.contact h2,.details h3,.form h2{font-family:'Inter',Arial,sans-serif;font-weight:700;letter-spacing:.2px}.hero h1{font-size:62px;line-height:1.16;margin:0}.hero h1 span{color:var(--green)}.hero p{font-size:20px;line-height:1.5;margin:12px 0 0}.containers{position:absolute;bottom:0;left:0;width:100%;height:310px;display:flex;justify-content:space-between;align-items:flex-end;overflow:hidden}.containers img{width:55%;height:auto;max-height:340px;object-fit:contain;object-position:bottom}.containers .left{transform:translateX(-6%)}.containers .right{transform:scaleX(-1) translateX(-6%)}.contact{padding:50px 7.5% 80px;display:grid;grid-template-columns:1fr 1fr;gap:75px;align-items:center}.intro{padding-top:10px}.contact h2{font-size:49px;line-height:1.28;margin:0 0 18px}.contact h2 span{color:var(--green)}.intro>p{font-size:17px;line-height:1.5;margin:0}.details{margin-top:28px}.details h3{font-size:43px;margin:0 0 2px}.details h3 span{color:var(--green)}.details p{color:#737373;font-size:18px;line-height:1.7;margin:0}.form{background:var(--green);border-radius:22px;padding:45px 28px 28px;min-height:510px;display:flex;flex-direction:column;gap:14px}.form h2{color:#fff;text-align:center;font-size:39px;margin:0 0 8px}.form input,.form textarea{border:0;border-radius:7px;background:#fff;padding:15px 13px;font-family:'Inter',Arial,sans-serif;font-size:16px;outline:none}.form input{height:53px}.form textarea{height:120px;resize:none}.form button{align-self:center;margin-top:2px;background:#050505;color:#fff;border:0;border-radius:28px;padding:12px 29px;font-size:16px}.form button:hover{opacity:.9}@media(max-width:850px){.nav-wrap{padding:18px 18px 0}.nav{height:58px}.brand{font-size:18px}.brand img{width:45px;height:45px}.links{display:none;position:absolute;top:68px;left:0;right:0;background:#fff;border:1px solid #aaa;border-radius:18px;padding:18px;flex-direction:column;gap:18px;box-shadow:0 5px 15px #0002}.links.open{display:flex}.quote{display:none}.menu{display:flex;flex-direction:column;gap:4px;margin-left:auto;padding:10px}.menu i{width:23px;height:2px;background:#111;display:block}.hero{height:530px;padding:60px 18px 0}.hero h1{font-size:42px}.hero p{font-size:16px}.containers{height:205px}.containers img{width:72%}.contact{grid-template-columns:1fr;gap:42px;padding:45px 22px 60px}.contact h2{font-size:38px}.details h3{font-size:36px}.form{min-height:auto;padding:35px 20px 25px}.form h2{font-size:34px}.desktop{display:none}}@media(max-width:480px){.hero{height:470px;padding-top:12px}.hero h1{font-size:34px}.hero p{font-size:14px}.containers{height:155px}.contact h2{font-size:32px}.intro>p{font-size:15px}.form input{height:50px}.form textarea{height:110px}}
+
+
+/* YM Logistics — unified typography */
+:root{--font-main:'Inter',Arial,sans-serif}
+html,body,button,input,textarea,select{font-family:var(--font-main)!important}
+body{font-size:16px}
+
+/* YM Logistics — unified typography scale */
+html,body,button,input,textarea,select{font-family:'Inter',Arial,sans-serif!important}
+body{font-size:16px!important}
+.nav-links,.links,.nav nav a{font-size:14px!important}
+.nav-cta,.quote,.quote-btn,.btn,.black-btn,.send,.service,.footer-top a,.footer-top p,.footer-top span,.footer-card a,.footer-card p{font-size:14px!important}
+.hero p,.about-copy p,.section-heading p,.service-card p,.why-card p,.trust-card p,.quote-card p,.intro p,.details p,.footer-top p,.footer-card p{font-size:16px!important}
+.hero h1{font-size:56px!important}
+.section-heading h2,.about-copy h2,.intro h2,.contact h2,.quote-card h2,.service-col h2{font-size:40px!important}
+.hero h3,.service-card h3,.why-card h3,.trust-card h3,.people h3{font-size:22px!important}
+.form h2{font-size:40px!important}
+.form input,.form textarea,.message-col textarea{font-size:16px!important}
+.footer-top h3,.footer-card h3,.footer-card h4{font-size:18px!important}
+
+/* YM Logistics — Services page typography used across the entire site */
+html, body, button, input, textarea, select { font-family: Arial, Helvetica, sans-serif !important; }
+body { font-family: Arial, Helvetica, sans-serif !important; }
+h1, h2, h3, h4, h5, h6, .section-title, .section-heading h2, .hero h1, .about-copy h2, .copy h2, .quote-card h2, .form h2, .bigbrand, .footer-brand {
+  font-family: Impact, 'Arial Narrow', Arial, Helvetica, sans-serif !important;
+  font-weight: 400 !important;
+}
+.nav-links, .links, .brand, .nav-cta, .quote, .btn, .service-card, .footer-top, .footer-card, .footer h3, .footer-top h3 {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+/* YM Logistics — Unified Navigation
+   Same size, width, spacing and screen displacement on every page. */
+:root{--nav-height:58px;--nav-width:min(1200px,92%);--nav-top:22px;--nav-radius:32px;--nav-green:#12d95a}
+
+/* Home */
+.site-header{position:fixed!important;z-index:50;top:var(--nav-top)!important;left:0!important;right:0!important}
+.nav-pill{width:var(--nav-width)!important;height:var(--nav-height)!important;margin:0 auto!important;padding:6px 8px!important;border-radius:var(--nav-radius)!important}
+.nav-pill .brand img{width:34px!important;height:34px!important}
+.nav-pill .brand{font-size:14px!important}
+.nav-pill .nav-links{gap:34px!important;font-size:12px!important}
+.nav-pill .nav-cta{padding:11px 18px!important;font-size:12px!important;border-radius:20px!important}
+
+/* About / Team / Contact / Quote */
+.nav-wrap{width:var(--nav-width)!important;margin:var(--nav-top) auto 0!important;padding:0!important;position:relative!important;z-index:50}
+.nav-wrap .nav{width:100%!important;max-width:none!important;height:var(--nav-height)!important;margin:0!important;padding:6px 8px!important;border-radius:var(--nav-radius)!important}
+.nav-wrap .nav .brand{font-size:14px!important;gap:7px!important}
+.nav-wrap .nav .brand img,.nav-wrap .nav .logo{width:34px!important;height:34px!important}
+.nav-wrap .nav .links,.nav-wrap .nav>nav{gap:34px!important;font-size:12px!important}
+.nav-wrap .nav .links a,.nav-wrap .nav>nav>a{font-size:12px!important}
+.nav-wrap .nav .quote,.nav-wrap .nav .quote-btn{padding:11px 18px!important;border-radius:20px!important;font-size:12px!important}
+
+/* Services */
+body>.wrap:first-child{width:var(--nav-width)!important;margin:var(--nav-top) auto 0!important}
+body>.wrap:first-child .nav{width:100%!important;height:var(--nav-height)!important;padding:6px 8px!important;border-radius:var(--nav-radius)!important}
+body>.wrap:first-child .nav img{width:34px!important;height:34px!important;margin-right:7px!important}
+body>.wrap:first-child .brand{font-size:14px!important}
+body>.wrap:first-child .links{gap:34px!important;font-size:12px!important}
+body>.wrap:first-child .links a{font-size:12px!important}
+body>.wrap:first-child .quote{padding:11px 18px!important;border-radius:20px!important;font-size:12px!important}
+
+/* Keep the mobile navigation anchored to the same horizontal footprint. */
+@media(max-width:700px){
+  .site-header{top:12px!important}
+  .nav-pill,.nav-wrap,body>.wrap:first-child{width:calc(100% - 28px)!important}
+  .nav-pill{height:52px!important}
+  .nav-wrap .nav,body>.wrap:first-child .nav{height:52px!important}
+}
+@media(max-width:520px){
+  .nav-pill,.nav-wrap,body>.wrap:first-child{width:calc(100% - 28px)!important}
+}

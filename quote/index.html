@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>YM Logistics — Request a Quote</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Anton&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet"/><link href="quote-sizing.css" rel="stylesheet"/>
+<style id="mobile-nav-style">@media(max-width:700px){.links.open{display:flex!important;position:absolute;top:58px;left:0;right:0;background:#fff;border:1px solid #bbb;border-radius:18px;padding:14px;flex-direction:column;gap:14px;box-shadow:0 8px 20px #0002;z-index:20}.nav{position:relative}}</style></head>
+<body>
+<header class="nav-wrap">
+<nav class="nav">
+<a class="brand" href="#"><img alt="YM Logistics logo" src="assets/logo.png"/><span>YM Logistics</span></a>
+<div class="links">
+<a href="../index.html">Home</a><a href="../about/index.html">About</a><a href="../services/index.html">Services</a><a href="../team/index.html">Team</a><a href="../contact/index.html">Contact</a>
+<a class="quote-btn" href="../quote/index.html">Request quote</a>
+</div>
+<button aria-label="Open menu" class="menu">☰</button>
+</nav>
+</header>
+<main>
+<section class="quote-panel" id="quote">
+<h1>Request A Quote</h1>
+<form id="quoteForm">
+<div class="fields">
+<input placeholder="FULL NAME" required=""/>
+<input placeholder="COMPANY NAME" required=""/>
+<input placeholder="EMAIL ADDRESS" required="" type="email"/>
+<input placeholder="PHONE NUMBER" required=""/>
+</div>
+<div class="service-row">
+<div class="service-col">
+<h2>Select Service</h2>
+<div class="service-grid">
+<button class="service active" type="button">Air Freight</button>
+<button class="service" type="button">Transportation</button>
+<button class="service" type="button">Sea Freight</button>
+<button class="service" type="button">Special Cargo</button>
+<button class="service" type="button">Customs Clearance</button>
+</div>
+</div>
+<div class="message-col">
+<textarea placeholder="Tell us about your cargo requirements" required=""></textarea>
+<button class="send" type="submit">SEND MESSAGE</button>
+</div>
+</div>
+</form>
+</section>
+</main>
+<footer class="footer">
+<div class="footer-card">
+<div class="foot-brand"><h3>YM Logistics</h3><p>Reliable logistics solutions<br/>connecting Ethiopia with global<br/>markets.</p></div>
+<div><h4>Quick Links</h4><a href="../index.html">Home</a><a href="../about/index.html">About</a><a href="../services/index.html">Services</a><a href="../contact/index.html">Contact</a></div>
+<div><h4>Services</h4><a>Air Freight</a><a>Sea Freight</a><a>Customs Clearance</a><a>Transportation</a></div>
+<div><h4>Contact</h4><p>+251 94 430 8117</p><p>info@ymlogistics.com</p><p>Addis Ababa, Ethiopia</p></div>
+</div>
+<div class="watermark">YM LOGISTICS</div>
+</footer>
+<script src="script.js"></script>
+<script id="site-nav-script">document.addEventListener('DOMContentLoaded',()=>{const b=document.querySelector('.mobile,.menu');const n=document.querySelector('.links,header nav>nav');if(!b||!n)return;b.addEventListener('click',()=>n.classList.toggle('open'));});</script><script src="../site-shell.js"></script>
+</body>
+</html>

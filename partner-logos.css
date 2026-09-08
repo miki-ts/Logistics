@@ -1,0 +1,14 @@
+/* Keep every partner logo legible on the green angled ribbon. */
+.partner-ribbon {
+  gap: clamp(18px, 3vw, 46px);
+  padding: 0 32px;
+}
+
+.partner-ribbon img {
+  width: clamp(88px, 10vw, 135px);
+  height: 46px;
+  flex: 0 0 auto;
+  filter: brightness(0) invert(1);
+  mix-blend-mode: normal;
+  opacity: 1;
+}

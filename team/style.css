@@ -1,0 +1,72 @@
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#fff;color:#080808;font-family:'Inter',Arial,sans-serif}.nav-wrap{width:min(1080px,calc(100% - 56px));margin:42px auto 0;position:sticky;top:18px;z-index:100}.nav{height:62px;border:1px solid #999;border-radius:40px;display:flex;align-items:center;padding:5px 10px 5px 10px;box-shadow:0 2px 4px #0002;background:#fff}.brand{display:flex;align-items:center;gap:8px;text-decoration:none;color:#111;font-weight:700;min-width:235px}.logo{width:40px;height:40px;border:3px solid #16d65a;border-radius:50%;display:grid;place-items:center;color:#12c956;font-weight:900;font-size:16px;letter-spacing:-2px}.links{display:flex;align-items:center;justify-content:center;gap:48px;flex:1}.links a{font-size:14px;color:#222;text-decoration:none}.links .active{font-weight:700}.quote{background:#16d65a;color:#000;text-decoration:none;border-radius:30px;padding:12px 23px;font-size:14px;white-space:nowrap}.menu{display:none;background:none;border:0;font-size:22px}.hero{text-align:center;padding:18px 20px 20px}.hero h1{font-family:'Inter',Arial,sans-serif;font-size:68px;letter-spacing:1px;font-weight:500;margin:0}.hero h1 em{font-style:normal;color:#16d65a}.hero p{font-size:16px;line-height:1.45;margin:15px 0 8px}.hero-team{display:block;width:min(800px,85%);height:400px;object-fit:contain;margin:0 auto}.intro{width:min(1080px,calc(100% - 56px));margin:95px auto 110px;display:grid;grid-template-columns:1fr 1.08fr;gap:70px;align-items:center}.intro h2{font-family:'Inter',Arial,sans-serif;font-weight:500;font-size:42px;line-height:.98;margin:0 0 18px;letter-spacing:.5px}.intro h2 span{color:#16d65a}.intro p{font-size:16px;line-height:1.55;max-width:520px;margin:0}.intro img{width:100%;height:360px;object-fit:cover;border:4px solid #16d65a;border-radius:15px}.people{width:min(900px,calc(100% - 56px));margin:70px auto 110px;display:grid;grid-template-columns:repeat(3,1fr);gap:32px}.people article{background:#16d65a;border-radius:16px;padding:16px 14px 18px;text-align:center}.people img{width:100%;aspect-ratio:1.2;object-fit:cover;border-radius:13px;display:block}.people h3{font-family:'Inter',Arial,sans-serif;font-weight:500;font-size:27px;margin:8px 0 2px;line-height:.9;white-space:nowrap}.people p{margin:4px 0 0;font-size:14px}.cta{width:min(900px,calc(100% - 56px));margin:80px auto 115px;background:#16d65a;border-radius:17px;display:flex;align-items:center;justify-content:space-between;padding:55px 50px 55px 52px;min-height:320px}.cta h2,.cta p{color:#fff!important}.cta h2{font-family:'Inter',Arial,sans-serif;font-weight:500;font-size:40px;line-height:.9;margin:0 0 12px}.cta p{font-size:15px;line-height:1.2;margin:0 0 18px}.black-btn{display:inline-block;background:#000;color:#fff;text-decoration:none;border-radius:25px;padding:13px 25px;font-size:15px}.cta img{width:48%;max-height:210px;object-fit:contain}footer{background:#16d65a;border-radius:65px 65px 0 0;padding:75px 8% 0;overflow:hidden}.footer-card{background:#fff;border-radius:17px;padding:32px 58px;display:grid;grid-template-columns:2fr 1fr 1fr 1.25fr;gap:28px;max-width:1080px;margin:auto}.footer-card h3{font-size:18px;margin:0 0 7px}.footer-card p,.footer-card a{display:block;font-size:11px;line-height:1.45;color:#333;text-decoration:none;margin:0 0 2px}.watermark{font-family:'Inter',Arial,sans-serif;color:#ffffff55;font-size:clamp(36px,12vw,100px);max-width:100%;overflow:hidden;line-height:.9;text-align:center;letter-spacing:3px;margin:28px 0 -4px}@media(max-width:800px){.nav-wrap{width:calc(100% - 28px);margin-top:20px}.nav{height:54px}.brand{min-width:0;font-size:13px}.logo{width:35px;height:35px;font-size:14px}.links{display:none}.quote{margin-left:auto;padding:10px 14px;font-size:12px}.menu{display:block;margin-left:8px}.hero{padding-top:12px}.hero h1{font-size:49px}.hero p{font-size:13px}.hero-team{height:auto;width:100%;margin-top:5px}.intro{width:calc(100% - 28px);grid-template-columns:1fr;gap:28px;margin:65px auto}.intro h2{font-size:37px}.intro p{font-size:14px}.intro img{height:260px}.people{width:calc(100% - 50px);grid-template-columns:1fr;gap:22px;margin:55px auto 75px;max-width:360px}.people h3{font-size:30px}.cta{width:calc(100% - 28px);padding:35px 28px;display:block;margin:55px auto 75px}.cta h2,.cta p{color:#fff!important}.cta h2{font-size:37px}.cta img{width:100%;margin-top:25px;max-height:170px}.footer-card{grid-template-columns:1fr 1fr;padding:25px;gap:25px}.watermark{font-size:clamp(28px,10vw,56px);max-width:100%;overflow:hidden}footer{border-radius:38px 38px 0 0;padding:45px 14px 0}}
+
+
+/* YM Logistics — unified typography */
+:root{--font-main:'Inter',Arial,sans-serif}
+html,body,button,input,textarea,select{font-family:var(--font-main)!important}
+body{font-size:16px}
+
+/* YM Logistics — unified typography scale */
+html,body,button,input,textarea,select{font-family:'Inter',Arial,sans-serif!important}
+body{font-size:16px!important}
+.nav-links,.links,.nav nav a{font-size:14px!important}
+.nav-cta,.quote,.quote-btn,.btn,.black-btn,.send,.service,.footer-top a,.footer-top p,.footer-top span,.footer-card a,.footer-card p{font-size:14px!important}
+.hero p,.about-copy p,.section-heading p,.service-card p,.why-card p,.trust-card p,.quote-card p,.intro p,.details p,.footer-top p,.footer-card p{font-size:16px!important}
+.hero h1{font-size:56px!important}
+.section-heading h2,.about-copy h2,.intro h2,.contact h2,.quote-card h2,.service-col h2{font-size:40px!important}
+.hero h3,.service-card h3,.why-card h3,.trust-card h3,.people h3{font-size:22px!important}
+.form h2{font-size:40px!important}
+.form input,.form textarea,.message-col textarea{font-size:16px!important}
+.footer-top h3,.footer-card h3,.footer-card h4{font-size:18px!important}
+
+/* YM Logistics — Services page typography used across the entire site */
+html, body, button, input, textarea, select { font-family: Arial, Helvetica, sans-serif !important; }
+body { font-family: Arial, Helvetica, sans-serif !important; }
+h1, h2, h3, h4, h5, h6, .section-title, .section-heading h2, .hero h1, .about-copy h2, .copy h2, .quote-card h2, .form h2, .bigbrand, .footer-brand {
+  font-family: Impact, 'Arial Narrow', Arial, Helvetica, sans-serif !important;
+  font-weight: 400 !important;
+}
+.nav-links, .links, .brand, .nav-cta, .quote, .btn, .service-card, .footer-top, .footer-card, .footer h3, .footer-top h3 {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+/* YM Logistics — Unified Navigation
+   Same size, width, spacing and screen displacement on every page. */
+:root{--nav-height:58px;--nav-width:min(1200px,92%);--nav-top:22px;--nav-radius:32px;--nav-green:#12d95a}
+
+/* Home */
+.site-header{position:fixed!important;z-index:50;top:var(--nav-top)!important;left:0!important;right:0!important}
+.nav-pill{width:var(--nav-width)!important;height:var(--nav-height)!important;margin:0 auto!important;padding:6px 8px!important;border-radius:var(--nav-radius)!important}
+.nav-pill .brand img{width:34px!important;height:34px!important}
+.nav-pill .brand{font-size:14px!important}
+.nav-pill .nav-links{gap:34px!important;font-size:12px!important}
+.nav-pill .nav-cta{padding:11px 18px!important;font-size:12px!important;border-radius:20px!important}
+
+/* About / Team / Contact / Quote */
+.nav-wrap{width:var(--nav-width)!important;margin:var(--nav-top) auto 0!important;padding:0!important;position:relative!important;z-index:50}
+.nav-wrap .nav{width:100%!important;max-width:none!important;height:var(--nav-height)!important;margin:0!important;padding:6px 8px!important;border-radius:var(--nav-radius)!important}
+.nav-wrap .nav .brand{font-size:14px!important;gap:7px!important}
+.nav-wrap .nav .brand img,.nav-wrap .nav .logo{width:34px!important;height:34px!important}
+.nav-wrap .nav .links,.nav-wrap .nav>nav{gap:34px!important;font-size:12px!important}
+.nav-wrap .nav .links a,.nav-wrap .nav>nav>a{font-size:12px!important}
+.nav-wrap .nav .quote,.nav-wrap .nav .quote-btn{padding:11px 18px!important;border-radius:20px!important;font-size:12px!important}
+
+/* Services */
+body>.wrap:first-child{width:var(--nav-width)!important;margin:var(--nav-top) auto 0!important}
+body>.wrap:first-child .nav{width:100%!important;height:var(--nav-height)!important;padding:6px 8px!important;border-radius:var(--nav-radius)!important}
+body>.wrap:first-child .nav img{width:34px!important;height:34px!important;margin-right:7px!important}
+body>.wrap:first-child .brand{font-size:14px!important}
+body>.wrap:first-child .links{gap:34px!important;font-size:12px!important}
+body>.wrap:first-child .links a{font-size:12px!important}
+body>.wrap:first-child .quote{padding:11px 18px!important;border-radius:20px!important;font-size:12px!important}
+
+/* Keep the mobile navigation anchored to the same horizontal footprint. */
+@media(max-width:700px){
+  .site-header{top:12px!important}
+  .nav-pill,.nav-wrap,body>.wrap:first-child{width:calc(100% - 28px)!important}
+  .nav-pill{height:52px!important}
+  .nav-wrap .nav,body>.wrap:first-child .nav{height:52px!important}
+}
+@media(max-width:520px){
+  .nav-pill,.nav-wrap,body>.wrap:first-child{width:calc(100% - 28px)!important}
+}
