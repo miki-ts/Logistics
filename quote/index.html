@@ -26,10 +26,10 @@
 <h1>Request A Quote</h1>
 <form id="quoteForm">
 <div class="fields">
-<input placeholder="FULL NAME" required=""/>
-<input placeholder="COMPANY NAME" required=""/>
-<input placeholder="EMAIL ADDRESS" required="" type="email"/>
-<input placeholder="PHONE NUMBER" required=""/>
+<input name="name" placeholder="FULL NAME" required=""/>
+<input name="company" placeholder="COMPANY NAME" required=""/>
+<input name="email" placeholder="EMAIL ADDRESS" required="" type="email"/>
+<input name="phone" placeholder="PHONE NUMBER" required=""/>
 </div>
 <div class="service-row">
 <div class="service-col">
@@ -43,7 +43,7 @@
 </div>
 </div>
 <div class="message-col">
-<textarea placeholder="Tell us about your cargo requirements" required=""></textarea>
+<textarea name="message" placeholder="Tell us about your cargo requirements" required=""></textarea>
 <button class="send" type="submit">SEND MESSAGE</button>
 </div>
 </div>
@@ -60,6 +60,7 @@
 <div class="watermark">YM LOGISTICS</div>
 </footer>
 <script src="script.js"></script>
+<script src="../admin/public/public-submit.js"></script>
 <script id="site-nav-script">document.addEventListener('DOMContentLoaded',()=>{const b=document.querySelector('.mobile,.menu');const n=document.querySelector('.links,header nav>nav');if(!b||!n)return;b.addEventListener('click',()=>n.classList.toggle('open'));});</script><script src="../site-shell.js"></script>
 </body>
 </html>

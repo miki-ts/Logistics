@@ -1,0 +1,3 @@
+const form=document.querySelector("#loginForm"), error=document.querySelector("#error");
+fetch("/api/me").then(r=>r.ok&&(location.href="/public/dashboard.html"));
+form.addEventListener("submit",async e=>{e.preventDefault();error.textContent="";const button=form.querySelector("button"),data=Object.fromEntries(new FormData(form));button.disabled=true;button.textContent="Signing in…";try{const r=await fetch("/api/login",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(data)}),body=await r.json();if(!r.ok)throw Error(body.error);sessionStorage.setItem("ymCsrf",body.csrf);location.href="/public/dashboard.html"}catch(err){error.textContent=err.message||"Unable to sign in";button.disabled=false;button.innerHTML="Sign in <span>→</span>"}});
